@@ -1,0 +1,348 @@
+/* Google fonts */
+/* Rubik */
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-l.eot");
+  src: url("../../g/fonts/rubik/rubik-l-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-l.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-l.woff") format("woff"), url("../../g/fonts/rubik/rubik-l.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-l.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-r.eot");
+  src: url("../../g/fonts/rubik/rubik-r-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-r.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-r.woff") format("woff"), url("../../g/fonts/rubik/rubik-r.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-r.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-i.eot");
+  src: url("../../g/fonts/rubik/rubik-i-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-i.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-i.woff") format("woff"), url("../../g/fonts/rubik/rubik-i.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-i.svg") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-m.eot");
+  src: url("../../g/fonts/rubik/rubik-m-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-m.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-m.woff") format("woff"), url("../../g/fonts/rubik/rubik-m.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-m.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-m-i.eot");
+  src: url("../../g/fonts/rubik/rubik-m-i-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-m-i.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-m-i.woff") format("woff"), url("../../g/fonts/rubik/rubik-m-i.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-m-i.svg") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-b.eot");
+  src: url("../../g/fonts/rubik/rubik-b-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-b.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-b.woff") format("woff"), url("../../g/fonts/rubik/rubik-b.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-b.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-b-i.eot");
+  src: url("../../g/fonts/rubik/rubik-b-i-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-b-i.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-b-i.woff") format("woff"), url("../../g/fonts/rubik/rubik-b-i.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-b-i.svg") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-bl.eot");
+  src: url("../../g/fonts/rubik/rubik-bl-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-bl.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-bl.woff") format("woff"), url("../../g/fonts/rubik/rubik-bl.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-bl.svg") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../g/fonts/rubik/rubik-bl-i.eot");
+  src: url("../../g/fonts/rubik/rubik-bl-i-1.eot") format("embedded-opentype"), url("../../g/fonts/rubik/rubik-bl-i.woff2") format("woff2"), url("../../g/fonts/rubik/rubik-bl-i.woff") format("woff"), url("../../g/fonts/rubik/rubik-bl-i.ttf") format("truetype"), url("../../g/fonts/rubik/rubik-bl-i.svg") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+/* \Rubik */
+/* End of Google fonts */
+:root {
+--primary-color-base: #f88d66;
+--primary-color-a-005: rgba(248, 141, 102, 0.05);
+--primary-color-l-5: #f99f7e;
+--primary-color-l-10: #fab197;
+--primary-color-l-15: #fbc3af;
+--primary-color-l-20: #fcd6c8;
+--primary-color-l-25: #fee8e0;
+--primary-color-l-30: #fffaf8;
+--primary-color-l-35: #ffffff;
+--primary-color-l-40: #ffffff;
+--primary-color-l-45: #ffffff;
+--primary-color-l-50: #ffffff;
+--primary-color-l-55: #ffffff;
+--primary-color-l-60: #ffffff;
+--primary-color-d-5: #f77b4e;
+--primary-color-d-10: #f66935;
+--primary-color-a-01: rgba(248, 141, 102, 0.1);
+--primary-color-a-02: rgba(248, 141, 102, 0.2);
+--primary-color-a-03: rgba(248, 141, 102, 0.3);
+--primary-color-a-04: rgba(248, 141, 102, 0.4);
+--primary-color-a-05: rgba(248, 141, 102, 0.5);
+--primary-color-a-06: rgba(248, 141, 102, 0.6);
+--primary-color-a-07: rgba(248, 141, 102, 0.7);
+--primary-color-a-08: rgba(248, 141, 102, 0.8);
+--primary-color-a-09: rgba(248, 141, 102, 0.9);
+}
+/*** Start css of 6051580_ ***/
+
+.lpc-block .lpc-card--type-1 {
+	background-color: rgba(247,247,247,1);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-color: rgba(204,204,204,1);
+	border-style: none;
+	border-width: 0px;
+	border-enabled: 1;
+}
+.lpc-block .lpc-image-type-1 {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+	border-color: rgba(204,204,204,1);
+	border-style: none;
+	border-width: 0px;
+	border-enabled: 1;
+}
+.lpc-container-type-2 {
+	background-color: rgba(247,247,247,1);
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+	border-bottom-left-radius: 24px;
+	border-bottom-right-radius: 24px;
+	border-color: rgba(204,204,204,1);
+	border-style: none;
+	border-width: 0px;
+	border-enabled: 1;
+}
+.lpc-button--type-2 {
+	color: rgba(248,141,102,1);
+	font-transparent: 100%;
+	font-family: Rubik, sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgba(204,204,204,1);
+	border-style: none;
+	border-width: 0px;
+	border-enabled: 1;
+}
+.lpc-button--type-2:hover {
+	color: rgba(160,17,43,1);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(224, 224, 224);
+}
+.lpc-button--type-2:focus {
+	color: rgba(248,141,102,1);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(224, 224, 224);
+}
+.lpc-button--type-2:active {
+	color: rgba(160,17,43,1);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(184, 184, 184);
+}
+.lpc-button--type-1 {
+	font-family: Rubik, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgba(204,204,204,1);
+	border-style: none;
+	border-width: 0px;
+	border-enabled: 1;
+}
+.lpc-button--type-3 {
+	font-family: Rubik, sans-serif;
+	font-weight: 400;
+}
+.splide__arrow__bg {
+	background-color: rgba(247,247,247,1);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgba(204,204,204,1);
+	border-style: none;
+	border-width: 0px;
+	border-enabled: 1;
+}
+.splide__arrow__bg:hover {
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(224, 224, 224);
+}
+.splide__arrow__bg:focus {
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(224, 224, 224);
+}
+.splide__arrow__bg:active {
+	background-color: rgb(227, 227, 227);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(184, 184, 184);
+}
+.splide__arrow__icon {
+	background-color: rgba(34,34,34,0.8);
+}
+.splide__arrow__icon:hover {
+	background-color: rgba(54, 54, 54, 0.8);
+}
+.splide__arrow__icon:focus {
+	background-color: rgba(54, 54, 54, 0.8);
+}
+.splide__arrow__icon:active {
+	background-color: rgba(14, 14, 14, 0.8);
+}
+.lp-form-tpl__field-text {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-color: rgba(232,222,222,1);
+	border-style: solid;
+	border-width: 1px;
+	border-transparent: 100%;
+	border-enabled: 1;
+}
+.lp-form-tpl__field-text:hover {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-color: rgb(252, 242, 242);
+}
+.lp-form-tpl__field-text:focus {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-color: rgb(252, 242, 242);
+}
+.lp-form-tpl__field-text:active {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-color: rgb(215, 198, 198);
+}
+.lp-form-tpl__field-multi_select._opened .lp-form-tpl__field-multi_select__input, .lp-form-tpl__field-multi_select._opened .lp-form-tpl__field-select__input, .lp-form-tpl__field-select._opened .lp-form-tpl__field-multi_select__input, .lp-form-tpl__field-select._opened .lp-form-tpl__field-select__input, .lp-form-tpl__field-multi_select__list,.lp-form-tpl__field-select__list {
+	border-color: rgba(232,222,222,1);
+	border-style: solid;
+	border-width: 1px;
+	border-transparent: 100%;
+}
+.lpc-block .lp-header-text-2 {
+	font-size: 17px;
+	line-height: 130%;
+}
+@media screen and (max-width: 1279px) {
+.lpc-block .lp-header-text-2 {
+	font-size: 17px;
+	line-height: 130%;
+}
+}
+@media screen and (max-width: 991px) {
+.lpc-block .lp-header-text-2 {
+	font-size: 17px;
+	line-height: 130%;
+}
+}
+@media screen and (max-width: 767px) {
+.lpc-block .lp-header-text-2 {
+	font-size: 16px;
+	line-height: 130%;
+}
+}
+@media screen and (max-width: 479px) {
+.lpc-block .lp-header-text-2 {
+	font-size: 16px;
+	line-height: 130%;
+}
+}
+.lpc-block .lp-header-text-3 {
+	font-size: 16px;
+	line-height: 130%;
+}
+@media screen and (max-width: 1279px) {
+.lpc-block .lp-header-text-3 {
+	font-size: 16px;
+	line-height: 130%;
+}
+}
+@media screen and (max-width: 991px) {
+.lpc-block .lp-header-text-3 {
+	font-size: 16px;
+	line-height: 130%;
+}
+}
+@media screen and (max-width: 767px) {
+.lpc-block .lp-header-text-3 {
+	font-size: 15px;
+	line-height: 130%;
+}
+}
+@media screen and (max-width: 479px) {
+.lpc-block .lp-header-text-3 {
+	font-size: 15px;
+	line-height: 130%;
+}
+}
+.lpc-button--type-1:hover {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(224, 224, 224);
+}
+.lpc-button--type-1:focus {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(224, 224, 224);
+}
+.lpc-button--type-1:active {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-color: rgb(184, 184, 184);
+}
+
+/*** End css of 6051580_ ***/
